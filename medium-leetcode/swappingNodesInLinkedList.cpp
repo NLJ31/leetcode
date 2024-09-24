@@ -7,7 +7,7 @@ class ListNode {
 
     ListNode(int value) {
         val = value;
-        next = nullptr;
+        next = nullptr; 
     }
 };
 
