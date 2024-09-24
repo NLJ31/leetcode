@@ -23,7 +23,7 @@ class Solution {
         int fromTheBegining = k - 1;
         int fromTheEnd = (len - k) + 1;
         int count = 0;
-        int valueA, valueB;
+        int valueA, valueB; 
 
         ListNode* current = head;
         ListNode* start = nullptr;

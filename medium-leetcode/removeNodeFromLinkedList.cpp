@@ -46,7 +46,7 @@ class Solution {
 
     int length(ListNode* head) {
         if (head->next == nullptr) {
-            return 0;
+            return 0; 
         }
 
         return length(head->next) + 1;

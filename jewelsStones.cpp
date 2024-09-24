@@ -11,7 +11,7 @@ class Solution {
 
         for (char c : stones) {
             if (jewels.find(c) != string::npos) {
-                count ++;
+                count ++; 
             }
             // store[c]++;
         }
